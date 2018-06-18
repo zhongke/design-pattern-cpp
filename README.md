@@ -4,7 +4,7 @@ Design pattern description by C++
 Here is another version implementation based on Book "Head First Design pattern" which was decribed by C++.
 Any comments are welcome.
 
-# Design Principle
+## Design Principle
 - Identify the aspects of your application that vary and separate them from what stays the same.
 - Program to an interface, not an implementation.
 - Favor composition over inheritance.
