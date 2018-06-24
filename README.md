@@ -9,22 +9,28 @@ Any comments are welcome.
 - Program to an interface, not an implementation.
 - Favor composition over inheritance.
 - Strive for loosely coupled designs between objects that interact.
-- Classes should be open for extension, but closed for modification.
+### Open Close Principle
+  - Classes should be open for extension, but closed for modification.
+### Dependency Inversion Principle
+  - Depend upon abstractions. Do not depend upon concrete classes.
 
 ## Design Pattern
 
-### Strategy Pattern 
+### Strategy Pattern
   - Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
     Strategy lets the algorithm vary independently from clients that use it.
-  
-### Observer Pattern 
+
+### Observer Pattern
   - Defines a one-to-many dependency between objects so that when one object changes state,
     all of its dependents are notified and updated automatically.
 
-### Decorator Pattern 
-  - Attaches additional responsibilities to an object dynamically. 
+### Decorator Pattern
+  - Attaches additional responsibilities to an object dynamically.
     Decorators provide a flexible alternative to subclassing for extending functionality.
-    
+
 ### Factory Method Pattern
   - Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
     Factory Method lets a class defer instantiation to subclasses.
+
+### Abstract Factory Pattern
+  - Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
