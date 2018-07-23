@@ -38,3 +38,7 @@ Any comments are welcome.
 
 ### Singleton Pattern
   - Ensures a class has only one instance, and provides a global point of access to it.
+
+### Command Pattern
+  - Encapsulates a request as an object, thereby letting you parameterize other objects with different quests,
+    queue or log requests, and support undoable operations.
