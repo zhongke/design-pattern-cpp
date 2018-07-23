@@ -5,10 +5,11 @@ Here is another version implementation based on Book "Head First Design pattern"
 Any comments are welcome.
 
 ## Design Principle
-- Identify the aspects of your application that vary and separate them from what stays the same.
-- Program to an interface, not an implementation.
-- Favor composition over inheritance.
-- Strive for loosely coupled designs between objects that interact.
+ - Identify the aspects of your application that vary and separate them from what stays the same.
+ - Program to an interface, not an implementation.
+ - Favor composition over inheritance.
+ - Strive for loosely coupled designs between objects that interact.
+
 ### Open Close Principle
   - Classes should be open for extension, but closed for modification.
 ### Dependency Inversion Principle
@@ -34,3 +35,6 @@ Any comments are welcome.
 
 ### Abstract Factory Pattern
   - Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### Singleton Pattern
+  - Ensures a class has only one instance, and provides a global point of access to it.
