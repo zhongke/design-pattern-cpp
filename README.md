@@ -42,3 +42,7 @@ Any comments are welcome.
 ### Command Pattern
   - Encapsulates a request as an object, thereby letting you parameterize other objects with different quests,
     queue or log requests, and support undoable operations.
+
+### Adapter Pattern
+  - Converts the interface of a class into another interface the clients expect.
+    Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
