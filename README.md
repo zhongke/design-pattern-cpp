@@ -14,6 +14,12 @@ Any comments are welcome.
   - Classes should be open for extension, but closed for modification.
 ### Dependency Inversion Principle
   - Depend upon abstractions. Do not depend upon concrete classes.
+### Least Knowledge Principle
+  - Talk only to your immediate friends.
+### Hollywood Principle
+  - Don't call us, we'll call you.
+
+
 
 ## Design Pattern
 
@@ -46,3 +52,12 @@ Any comments are welcome.
 ### Adapter Pattern
   - Converts the interface of a class into another interface the clients expect.
     Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+### Facade Pattern
+  - Provides a unified interface to a set of interfaces in a subsystem.
+    Defines a higher-level interface that makes the subsystem easier to use.
+
+### Template Method Pattern
+  - Defines the skeleton of a algorithm in a method, deferring some steps to subclasses.
+  - Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+    Defines a higher-level interface that makes the subsystem easier to use.
