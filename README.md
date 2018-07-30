@@ -59,5 +59,8 @@ Any comments are welcome.
 
 ### Template Method Pattern
   - Defines the skeleton of a algorithm in a method, deferring some steps to subclasses.
-  - Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+    Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
     Defines a higher-level interface that makes the subsystem easier to use.
+
+### Iterator Pattern
+  - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying represetation.
