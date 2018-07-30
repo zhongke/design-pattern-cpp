@@ -18,6 +18,8 @@ Any comments are welcome.
   - Talk only to your immediate friends.
 ### Hollywood Principle
   - Don't call us, we'll call you.
+### Single Responsibility Principle
+  - A class should have only one reason to change.
 
 
 
