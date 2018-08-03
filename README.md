@@ -74,3 +74,6 @@ Any comments are welcome.
 ### State Pattern
   - Allows an object to alter its behavior when its internal state changes.
   - The object will appear to change its class.
+
+### Proxy Pattern
+  - Provides a surrogate or placeholder for another object to contorl access to it.
